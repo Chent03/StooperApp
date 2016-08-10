@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        android:id="@+id/textView6"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/accent_material_light"
+        android:background="#ffffff"
+        android:layout_above="@+id/textView7"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category"
+        android:id="@+id/textView7"
+        android:textColor="@color/accent_material_light"
+        android:background="#ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_above="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edcategory"
+        android:hint="Furniture, Clothes, Shoes, etc"
+        android:textColor="@color/accent_material_light"
+        android:background="#fafafa"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/edcondition"
+        android:layout_alignEnd="@+id/edcondition" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Condition"
+        android:id="@+id/textView8"
+        android:textColor="@color/accent_material_light"
+        android:background="#ffffff"
+        android:layout_above="@+id/textViewLocation"
+        android:layout_alignStart="@+id/textViewLocation" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edcondition"
+        android:hint="Perfect, Usable, Scrap"
+        android:textColor="@color/accent_material_light"
+        android:background="#fafafa"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_alignEnd="@+id/edstreet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Location"
+        android:id="@+id/textViewLocation"
+        android:textColor="@color/accent_material_light"
+        android:background="#ffffff"
+        android:layout_above="@+id/edstreet"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edstreet"
+        android:hint="Street Address"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/accent_material_light"
+        android:background="#fafafa"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textViewLocation" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edcity"
+        android:hint="City"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/accent_material_light"
+        android:background="#fafafa"
+        android:layout_alignStart="@+id/textViewLocation"
+        android:layout_below="@+id/edstreet"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/subbtn"
+        android:textColor="@color/accent_material_light"
+        android:layout_below="@+id/edcity"
+        android:layout_alignStart="@+id/textViewLocation" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtitle"
+        android:layout_above="@+id/edcategory"
+        android:layout_alignStart="@+id/edcategory"
+        android:layout_alignEnd="@+id/edcategory" />
+
+</RelativeLayout>

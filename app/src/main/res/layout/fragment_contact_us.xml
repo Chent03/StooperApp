@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs6392016.gbergy.stooperapp.ContactUs"
+    android:background="@color/splashBackground">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL RAWLE"
+        android:id="@+id/jonesbtn"
+        android:layout_gravity="right|bottom"
+        android:layout_alignTop="@+id/gregbtn"
+        android:layout_alignEnd="@+id/jonespic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAWLE JONES"
+        android:id="@+id/jonespic"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignBaseline="@+id/tonypic"
+        android:layout_alignBottom="@+id/tonypic"
+        android:layout_toEndOf="@+id/tonypic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL TONY"
+        android:id="@+id/tonybtn"
+        android:layout_gravity="right|center_vertical"
+        android:layout_alignTop="@+id/jonesbtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tony Chen"
+        android:id="@+id/tonypic"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/gregpic"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Greg"
+        android:id="@+id/gregbtn"
+        android:layout_gravity="right|top"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/gregpic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greg Goldberg"
+        android:id="@+id/gregpic"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center"
+        android:layout_above="@+id/gregbtn"
+        android:layout_toStartOf="@+id/tonybtn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gregview"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

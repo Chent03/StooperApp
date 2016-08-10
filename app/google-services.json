@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944461835517",
+    "firebase_url": "https://stooperapp.firebaseio.com",
+    "project_id": "stooperapp",
+    "storage_bucket": "stooperapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944461835517:android:f971c369ce622eca",
+        "android_client_info": {
+          "package_name": "com.cs6392016.gbergy.stooperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944461835517-j13api135d616kcrv7ivg6i10uf1nmpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs6392016.gbergy.stooperapp",
+            "certificate_hash": "930545EA0242C8559D28D8793F1C052869BC4872"
+          }
+        },
+        {
+          "client_id": "944461835517-2rb17hkt378mr2ol6q85123dqseg36eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHq5tTfpMOw4erI5y-sqFyv2xFlBzw_Pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944461835517-2rb17hkt378mr2ol6q85123dqseg36eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
